@@ -1,0 +1,56 @@
+// Colors
+$orange: #FE5D26;
+$orange-lite:#F2C078;
+$orange-lite-two:#FAEDCA;
+$success: #7ED321;
+$success-lite:#7EBC89;
+$success-lite-two:#C1DBB3;
+$text: #545454;
+app-home {
+    height: 100%;
+    display: block;
+}
+
+.color-orange {
+    color: $orange;
+}
+
+.card {
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.27058823529411763);
+    max-width: 660px;
+    width: 100%;
+    .card-title {
+        border-bottom: 1px solid $success-lite;
+        padding-bottom: 20px;
+        color: $text;
+    }
+    .btn-sending {
+        background-color: $success;
+        border-color: $success;
+    }
+    .p-edit {
+        color: $text;
+    }
+    .hra {
+        cursor: pointer;
+        border-bottom: 1px solid $success-lite-two;
+    }
+    .criteriosAceptacion {
+        h4 {
+            color: $text;
+        }
+         ::ng-deep {
+            .mat-checkbox-checked:not(.mat-checkbox-disabled).mat-accent .mat-ripple-element,
+            .mat-checkbox:active:not(.mat-checkbox-disabled).mat-accent .mat-ripple-element {
+                background: $orange !important;
+            }
+            .mat-checkbox-checked.mat-accent .mat-checkbox-background,
+            .mat-checkbox-indeterminate.mat-accent .mat-checkbox-background {
+                background: $orange !important;
+            }
+            .mat-checkbox-layout {
+                white-space: normal !important;
+            }
+        }
+    }
+}
