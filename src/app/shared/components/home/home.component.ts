@@ -158,7 +158,6 @@ export class HomeComponent implements OnInit {
 
   }
   nameAndlast(event) {
-  console.log('%c⧭', 'color: #733d00', event);
     if (event === true) {
       this.valueProgress = 50;
       this.dateDisabled = false;
