@@ -1,5 +1,7 @@
 # Accenture
 
+Para la contraseña puede ser cualquiera de estas revisar Sustentación.docx : -Lb_JtJG2xzkIAihkVwB
+
 Run npm install
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.0.

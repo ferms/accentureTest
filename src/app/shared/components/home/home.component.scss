@@ -40,6 +40,12 @@ app-home {
             color: $text;
         }
          ::ng-deep {
+            .mat-progress-bar-fill::after {
+                background-color: $success-lite;
+            }
+            .mat-progress-bar-buffer {
+                background-color: $success-lite-two;
+            }
             .mat-checkbox-checked:not(.mat-checkbox-disabled).mat-accent .mat-ripple-element,
             .mat-checkbox:active:not(.mat-checkbox-disabled).mat-accent .mat-ripple-element {
                 background: $orange !important;
